@@ -1,0 +1,56 @@
+
+this ticket is to perform the initial checkin (clearfs import) of the files on the CC project itf_ems_bin_v4_04.00.;
+Please find the .tar containing the files to be loaded through the following steps:;
+gdcul3639 25: cd /auto/users-03/v601888/ClearCase/itf_ems_bin_v4_04.00;
+gdcul3639 26: ls -lrt;total 472800;-rw-r--r-- 1 v601888 itfs 483157620 May 8 11:39 ems_bin.tar.gz;
+Please, create the folder /deploy/UNIX/generic/nosrc/bin in ClearCase and unzip the .tar file in the new folder.;
+Thank you for your support.
+Maurizio Allocca on 5/8/2017 at 05:40
+
+cp -a /auto/users-03/v601888/ClearCase/itf_ems_bin_v4_04.00/* .
+
+tar -cvf /ratl/nbobw/rds_import/ttf_web_01.00_04052017.tar *
+
+cd /ratl/nbobw/rds_import
+mkdir ttf_web_01.00_04052017
+cd ttf_web_01.00_04052017
+
+tar -xvf ../ems_bin.tar.gz
+
+
+cd /auto/users-03/v601888/ClearCase/itf_ems_bin_v4_04.00
+
+cd /ratl/nbobw/rds_import/itf_ems_bin_v4_04.00_08052017/
+ems_bin.tar.gz *
+
+tar -xvf ems_bin.tar.gz
+1---------------------------------------------------------------------
+cleartool mkview -tag rtladmin_bsl_ crdtrsk_32.00_int_clearfsimport_20032017 -stream bsl_ crdtrsk_32.00_integration@/vobs/bsl01cp -stgloc nboc_viewstore
+cleartool mkview -tag rtladmin_bsl_ crdtrsk_32.00_int_clearfsimport_20032017 -tmode transparent -stream bsl_ crdtrsk_32.00_integration@/vobs/bsl01cp -stgloc nboc_viewstore
+cleartool setview rtladmin_esf_db_03.10_int_clearfsimport_19012017
+cd /vobs/esf02cv/esf_websvc/
+tar -cvf /ratl/nbobw/rds_import/ttf_web_01.00_04052017.tar *
+cd /ratl/nbobw/rds_import
+mkdir ttf_web_01.00_04052017
+cd ttf_web_01.00_04052017
+tar -xvf ../ttf_web_01.00_04052017.tar
+========================================================================================================================
+
+Please run clearimport and copy the following 03.11 project to 03.10 using latest baseline 
+(esf_websvc_03.11_01_23_2017, id PRTLB01871846): 
+esf_websvc_03.11 to esf_websvc_03.10. 
+------------------------------------------------------------------------------------------------------------------------
+cleartool mkview -tag rtladmin_sgo_app_07.34_int_clearfsimport_20032017 -tmode transparent -stream sgo_app_07.34_integration@/vobs/nbos_pvob02 -stgloc nboc_viewstor
+cleartool setview rtladmin_esf_db_03.15_int_clearfsimport_19012017
+umask 002
+cd /vobs/cv/itf_ems_bin/deploy/UNIX/generic/nosrc/bin
+ls
+find *
+cleartool setact PRTLB01915397
+
+
+clearfsimport -r -preview /auto/users-03/v601888/ClearCase/itf_ems_bin_v4_04.00/* .
+nohup clearfsimport -r  /auto/users-03/v601888/ClearCase/itf_ems_bin_v4_04.00/* . > /ratl/nbobw/rds_import/itf_ems_bin_v4_04.00_09052017.log &
+Other session
+tail -f /ratl/nbobw/rds_import/itf_ems_bin_v4_04.00_09052017.log
+----------------------------------------------------------------------------------- 

@@ -1,0 +1,212 @@
+July 3:
+
+App managers,
+
+In Boston site,  we  have started  to identify the  active projects  for migration  from TCM to UCD, as TCM is sun settings. We are writing you this mail  as you are the  app owner of the  below  application projects to  identify  the active projects in the list.
+Please let us know  the active projects  where the code is distributed  and  in this  list  any project you think we  have miss to add  for  the  appcodes.Also kindly let us know the active target runtime servers (subscribers) for these projects.
+
+Note:  We are not changing anything if it is  a source only project  in the ClearCase and no distribution is happening to that project.
+
+
+SCM	scm_01.00
+
+*SDA	sda_db_01.00
+*SDA	sda_web_01.000
+
+SDR	sdr_gth_01.00
+
+SEC	sec_anl_01.00
+SEC	sec_cops_01.00
+SEC	sec_pwmatrix_01.00
+SEC	sec_ssh_01.00
+SEC	sec_sudo_01.00
+SEC	sec_utils_01.00
+
+*SFN	sfn_01.00
+
+SFT	sft_cfg_01.00
+SFT	sft_scr_01.00
+
+SCM - tfoley@statestreet.com, SMadivada@statestreet.com, wdwood@statestreet.com, 
+
+SDR - vkumar9@statestreet.com, kkunte@statestreet.com, c.lai@statestreet.com, 
+
+SEC - sjpopp@statestreet.com, 
+
+SFT - mekeefe@statestreet.com, DJCristoforo@StateStreet.com, 
+
+Active NBOS projects for SCM, SDR, SEC & SFT to migrate from TCM to Udeploy
+**********************************************************************
+
+7th July
+*******
+Active NBOS projects for SGC, SHR & SLE to migrate from TCM to Udeploy
+
+SGC - mdoremus@statestreet.com, mdmarathe@statestreet.com,
+*SHR
+SLE - sjdavies@statestreet.com, konagaraja@statestreet.com, skanchinadam@statestreet.com, wkrodiger@statestreet.com
+*SLG
+*SLP
+SLX - konagaraja@statestreet.com, wkrodiger@statestreet.com
+
+SGC	sgc_db_01.00
+SGC	sgc_dbnacc_08.10
+SGC	sgc_dbssbt_08.10
+SGC	sgc_dbtor_08.10
+SGC	sgc_dub_01.00
+SGC	sgc_igls_01.00
+SGC	sgc_na_01.00
+SGC	sgc_reports_01.00
+SGC	sgc_util_01.00
+
+SLE	sle_02.90
+SLE	sle_02.90
+SLE	sle_03.00
+SLE	sle_03.10
+SLE	sle_fw_01.00
+SLE	sle_fw_01.00
+SLE	sle_fw_02.00
+SLE	sle_sys_05.00
+SLE	sle_uifw_01.00
+SLE	sle_uifw_01.00
+SLE	sle_uifw_02.00
+
+*SLG	slg_legacy_01.00
+
+SLX	slx_01.00
+SLX	slx_01.00
+SLX	slx_db_01.00
+SLX	slx_db_01.00
+SLX	slx_ui_01.00
+SLX	slx_ui_01.00
+***********************************************************************
+10th July
+*******
+Active NBOS projects for SME, SMH, SML, SMR & SNT to migrate from TCM to Udeploy.
+
+SME- pkahluwalia@statestreet.com, SKaur2@StateStreet.com, mng@statestreet.com, suwalker@statestreet.com, 
+
+SMH - clayton_carpenter@statestreet.com, snraisinghani@statestreet.com
+
+SML- lmmosca@statestreet.com
+
+SMR  -   lli5@statestreet.com, kvrachapudi@statstreet.com, jeffrey_scannell@statestreet.com
+
+SNT -  mdoremus@statestreet.com, OIS-CAS-Approvers@statestreet.com
+
+SME	sme_db_01.00
+SME	sme_misc_01.00
+SME	sme_ng_10.00
+SME	sme_scr_01.00
+
+SMH	smh_be_01.00
+SMH	smh_be_02.00
+SMH	smh_db_01.00
+SMH	smh_db_01.00
+SMH	smh_db_02.00
+SMH	smh_db_02.00
+SMH	smh_excep_01.00
+SMH	smh_excep_01.00
+SMH	smh_excep_02.00
+SMH	smh_excep_02.00
+SMH	smh_maint_01.00
+SMH	smh_maint_01.00
+SMH	smh_misc_01.00
+SMH	smh_misc_01.00
+
+SML	sml_rpt_01.00
+
+SMR	smr_01.00
+SMR	smr_03.00
+SMR	smr_core_01.00
+SMR	smr_core_01.01
+SMR	smr_core_02.00
+SMR	smr_core_02.01
+SMR	smr_core_db_01.00
+SMR	smr_core_syb_01.00
+SMR	smr_gfdm_01.00
+SMR	smr_gfdm_01.01
+SMR	smr_gfdm_01.02
+SMR	smr_gfdm_02.00
+SMR	smr_gfdm_db_01.00
+SMR	smr_secmaster_01.00
+SMR	smr_secmaster_db_01.00
+
+SNT	snt_app_01.00
+SNT	snt_frmcore_01.20
+SNT	snt_frmcore_02.10
+SNT	snt_frmcore_03.00
+SNT	snt_frmetl_01.10
+SNT	snt_frmosa_01.10
+SNT	snt_frmsch_01.10
+SNT	snt_matrix_01.00
+SNT	snt_utils_01.20
+
+
+**************************************************************************
+Active NBOS projects for SSI, SSO, STG & SXR to migrate from TCM to Udeploy.
+
+SOM -  ( no records found)
+
+SQL -    ( no records found)
+
+SRX - ( no records found)
+
+SSB -( no records found)
+
+SSGM - ( no records found)
+
+SSI - pkahluwalia@statestreet.com, v.krishnan@statestreet.com, mng@statestreet.com, sangharshsingh@statestreet.com
+
+SSO - pjcaron@statestreet.com
+
+STG - lli5@statestreet.com, kvrachapudi@statstreet.com, jeffrey_scannell@statestreet.com
+
+SSI	ssi_bak_01.00
+SSI	ssi_bak_02.00
+SSI	ssi_instrct_01.00
+SSI	ssi_instrct_03.10
+SSI	ssi_instrct_06.10
+SSI	ssi_instrct_06.20
+SSI	ssi_job_01.00
+SSI	ssi_job_02.00
+SSI	ssi_web_01.00
+SSI
+	ssi_web_02.00
+SSO	sso_ebs_sso_01.00
+SSO	sso_ebs_sso_01.00.01
+SSO	sso_ebsssodb_01.00
+
+STG	stg_01.00
+STG	stg_db_01.00
+
+SXR	sxr_01.00
+SXR	sxr_misc_01.00
+
+
+STN - ( No records found)
+
+STS* lakshmi
+
+SUD -(No records found)
+
+SXR- clayton_carpenter@statestreet.com, smronan@statestreet.com, pramody@statestreet.com
+
+SXR	sxr_misc_01.00					
+****************************************************************************************************
+
+TAG -( No records found)
+
+TAN -( No manager details)
+
+TAU - ( NO records found)
+
+TBX -( NO manager details)
+
+
+TCH -( No manager details)
+
+TCI -( no manager detail)
+
+
+

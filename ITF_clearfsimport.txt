@@ -1,0 +1,39 @@
+2. Load the content of /auto/users-03/v601888/ClearCase/FUNCTIONAL/missing_itf_core_v4_04.00/generic/runtime/app/v4/mag 
+in the path /deploy/UNIX/generic/nosrc/runtime/app/v4/mag
+
+3. Load the content of /auto/users-03/v601888/ClearCase/FUNCTIONAL/missing_itf_core_v4_04.00/generic/runtime/app/v4/magui 
+in the path /deploy/UNIX/generic/nosrc/runtime/app/v4/magui
+
+4. Load the content of /auto/users-03/v601888/ClearCase/FUNCTIONAL/missing_itf_core_v4_04.00/generic/runtime/app/v4/mlg 
+in the path /deploy/UNIX/generic/nosrc/runtime/app/v4/mlg
+
+tar -cvpf /ratl/nbobw/itf_core_v4_04.00_21062017_2.tar .
+cd /ratl/nbobw
+mkdir itf_core_v4_04.00_21062017_2
+cd itf_core_v4_04.00_21062017_2
+tar -xvpf ../itf_core_v4_04.00_21062017_2.tar
+
+
+clearfsimport -r -preview /ratl/nbobw/itf_core_v4_04.00_21062017_2/* .
+clearfsimport -r /ratl/nbobw/itf_core_v4_04.00_21062017_2/* . > /ratl/nbobw/itf_core_v4_04.00_21062017_2.log &
+Other session
+tail -f /ratl/nbobw/itf_core_v4_04.00_21062017_2.log  
+
+
+8:48 PMSubramanian, Santhosh Kumclearfsimport is completed
+please verify and let me know
+
+
+8:58 PMRanjan, Rajiv Asure
+
+
+9:32 PMSubramanian, Santhosh Kumfine?
+
+
+9:42 PMRanjan, Rajiv Alooks good
+
+
+9:44 PMSubramanian, Santhosh Kumok, create baseline before proceed to work
+
+
+9:44 PMRanjan, Rajiv Asure
